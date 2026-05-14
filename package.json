@@ -4,12 +4,13 @@
   "version": "0.0.0",
   "private": true,
   "engines": {
-  "node": "18.x"
+  "node": "24.x"
  },
   "scripts": {
-    "dev": "vite --host :: --port 3000",
+    "dev": "vite",
     "build": "vite build",
-    "start": "vite preview --host :: --port 3000",
+    "preview": "vite preview",
+    "start": "vite preview",
     "lint": "eslint . --quiet",
     "lint:warn": "eslint ."
   },
