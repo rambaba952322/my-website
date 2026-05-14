@@ -10,6 +10,7 @@
     "dev": "vite",
     "build": "npx vite build",
     "preview": "vite preview",
+    "postinstall": "chmod +x node_modules/.bin/vite",
     "start": "vite preview",
     "lint": "eslint . --quiet",
     "lint:warn": "eslint ."
